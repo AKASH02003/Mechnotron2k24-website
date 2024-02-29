@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 @font-face {
     font-family: moto-verse;
-    src:url("moto-verse italic.ttf") ;
+    src: url("moto-verse italic.ttf");
 }
 .navbar {
     position: absolute;
     top: 0;
     left: 0;
     background: #fff;
+}
+.navbar-brand{
+    font-family: "moto-verse";
 }
 
 #myBtn {
@@ -53,8 +56,9 @@
 }
 
 .img1 {
-    max-width: 50%;
-    height: auto;
+    max-inline-size:100%;
+    block size:auto;
+    height:auto;
     filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.7));
     /* Adjust the glow color and size */
     animation: glow 1.5s ease-in-out infinite alternate;
@@ -71,9 +75,7 @@
         /* Adjust the glow color and size */
     }
 }
-.navbar-brand{
-    font-family: "moto-verse";
-}
+
 #navItem1 {
     color: black;
     font-family: "Roboto";
@@ -106,16 +108,15 @@
 
 
 .banner-section-bg-container {
-    background-image: url("https://manavrachna.edu.in/wp-content/uploads/2023/08/Gears-Concept-Art.gif");
+    background-color: #00091B;
     height: 100vh;
-    background-size: cover;
 
 }
 
 .banner-heading {
     color: white;
     font-family: "Roboto";
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 300;
 }
 
@@ -200,7 +201,7 @@
 
 .vr-footer-section {
 
-    background-color: #19232d;
+    background-color: #00091B;
 
 }
 
@@ -297,8 +298,8 @@
 }
 
 .card20 {
-    background-color: white;
-    background-size: cover;
+    background-color: #00091B;
+
 }
 
 .mh20 {
@@ -409,9 +410,14 @@
     margin: 15px auto;
 }
 
+.eventra {
+    background-color: #00091B;
+}
+
 .containerevent .card {
     position: relative;
     cursor: pointer;
+    background-color: #00091B;
 }
 
 .containerevent .card .face {
@@ -422,7 +428,7 @@
 
 .containerevent .card .face.face1 {
     position: relative;
-    background: #333;
+    background: #00091B;
     background-image: url("https://img.freepik.com/free-photo/silhouette-drone-with-camera-flying-sunset_335224-924.jpg");
     background-size: cover;
     display: flex;
@@ -433,7 +439,7 @@
 }
 
 .containerevent .card:hover .face.face1 {
-    background: #ff0057;
+    background: #00091B;
     transform: translateY(0);
     background-image: url("https://img.freepik.com/free-photo/silhouette-drone-with-camera-flying-sunset_335224-924.jpg");
     background-size: cover;
@@ -730,13 +736,14 @@
     margin-right: auto;
     margin-left: auto;
     justify-content: space-evenly;
+    background-color: #00091B;
 }
 
 .outer-container {
     padding-top: 10px;
     padding-right: 50px;
     padding-left: 50px;
-    background-color: rgb(244, 252, 255);
+    background-color: #00091B;
 }
 
 .inner-container {
@@ -844,16 +851,22 @@
     width: 60px;
     margin-top: 5px;
     margin-bottom: 2px;
+    background-color: white;
 }
 
 .para3wd {
     color: white;
     font-size: 10px;
     font-weight: normal;
+
 }
 
 .para4wd {
-    color: #cced00;
     font-size: 8px;
     font-weight: bold;
+    color: white;
+}
+
+.detailed-view-bg-container {
+    background-color: #00091B;
 }
