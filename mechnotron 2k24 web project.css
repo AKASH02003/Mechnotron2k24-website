@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
-@font-face {
-    font-family: moto-verse;
-    src: url("moto-verse italic.ttf");
-}
+
 .navbar {
     position: absolute;
     top: 0;
     left: 0;
-    background: #fff;
 }
 .navbar-brand{
-    font-family: "moto-verse";
+    font-family: "MOTO VERSE Italic";
+    font-size:15px !important;
 }
-
+.navbar-brand1{
+    font-family: "MOTO VERSE Italic";
+    font-size:20px !important;
+    color:white;
+}
 #myBtn {
     display: none;
     /* Hidden by default */
@@ -51,13 +52,14 @@
 }
 
 .food-munch-logo {
-    width: 50px;
-    height: 40px;
+    width: 45px;
+    height: 38px;
+    margin-right:10px;
 }
 
 .img1 {
     max-inline-size:100%;
-    block size:auto;
+    block-size:auto;
     height:auto;
     filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.7));
     /* Adjust the glow color and size */
@@ -78,40 +80,52 @@
 
 #navItem1 {
     color: black;
-    font-family: "Roboto";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:BOLD;
 }
 
 #navItem2 {
     color: black;
-    font-family: "Roboto";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:BOLD;
 }
 
 #navItem3 {
     color: black;
-    font-family: "Roboto";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:BOLD;
 }
 
 #navItem4 {
     color: black;
-    font-family: "Roboto";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:BOLD;
 }
 
 #navItem5 {
     color: black;
-    font-family: "Roboto";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:BOLD;
 }
 
 #navItem6 {
     color: black;
-    font-family: "Roboto";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:BOLD;
 }
 
 
 .banner-section-bg-container {
-    background-color: #00091B;
-    height: 100vh;
+    background-image: url("Images/video_2024-03-17_01-07-08.gif");
+    background-repeat:no-repeat;
+    width: 100%;
+    min-height: 90vh;
+    background-position: center !important; 
+    background-size: cover;
+    position: relative;
+    margin-left:0px;
+  }
 
-}
 
 .banner-heading {
     color: white;
@@ -143,9 +157,11 @@
     width: 130px;
     height: 45px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #d0b200;
     border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .img2 {
@@ -157,6 +173,9 @@
     background-color: #19232d;
 }
 
+.menu-item-link{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 #iconcont {
     width: 40px;
     height: 40px;
@@ -336,7 +355,7 @@
 
 .wcu-card-description {
     color: #7b8794;
-    font-family: "Roboto";
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
 
@@ -347,8 +366,10 @@
 }
 
 .mh8 {
-    color: #cced00;
-    font-size: 35px;
+    color:  #ffdf00;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .mh9 {
@@ -379,7 +400,8 @@
     color: #9aa5b1;
     font-size: 22px;
     font-weight: normal;
-
+    font-family: Arial, Helvetica, sans-serif;
+    align-items:center;
 }
 
 .img5 {
@@ -429,7 +451,7 @@
 .containerevent .card .face.face1 {
     position: relative;
     background: #00091B;
-    background-image: url("https://img.freepik.com/free-photo/silhouette-drone-with-camera-flying-sunset_335224-924.jpg");
+    background-image: url("Images/Events/Tech/Tech event preview.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -441,7 +463,7 @@
 .containerevent .card:hover .face.face1 {
     background: #00091B;
     transform: translateY(0);
-    background-image: url("https://img.freepik.com/free-photo/silhouette-drone-with-camera-flying-sunset_335224-924.jpg");
+    background-image: url("Images/Events/Tech/Tech event preview.jpg");
     background-size: cover;
 }
 
@@ -536,7 +558,7 @@
 .containereventnontech .cardnontech .facenontech.face1nontech {
     position: relative;
     background: #333;
-    background-image: url("https://img.freepik.com/free-photo/carroms-board-with-pieces_1353-91.jpg");
+    background-image: url("Images/Events/Non Tech/Non tech event preview.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -548,7 +570,7 @@
 .containereventnontech .cardnontech:hover .facenontech.face1nontech {
     background: #ff0057;
     transform: translateY(0);
-    background-image: url("https://img.freepik.com/free-photo/carroms-board-with-pieces_1353-91.jpg");
+    background-image: url("Images/Events/Non Tech/Non tech event preview.jpg");
     background-size: cover;
 }
 
@@ -633,7 +655,7 @@
 .containereventfun .cardfun .facefun.face1fun {
     position: relative;
     background: #333;
-    background-image: url("https://img.freepik.com/free-photo/man-with-glasses-virtual-reality_155003-13511.jpg");
+    background-image: url("Images/Events/Fun Events/Fun Events preview.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -645,7 +667,7 @@
 .containereventfun .cardfun:hover .facefun.face1fun {
     background: #ff0057;
     transform: translateY(0);
-    background-image: url("https://img.freepik.com/free-photo/man-with-glasses-virtual-reality_155003-13511.jpg");
+    background-image: url("Images/Events/Fun Events/Fun Events preview.jpg");
     background-size: cover;
 }
 
@@ -719,11 +741,13 @@
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    line-height: 25px;
+    line-height: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .responsive-cell-block {
     min-height: 75px;
+    
 }
 
 .responsive-container-block {
@@ -762,10 +786,11 @@
     margin-bottom: 5px;
     margin-left: 0px;
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 48px;
-    color: #cced00;
+    color:#ffdf00;
     margin: 0 0 10px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .section-subhead-text {
@@ -795,7 +820,7 @@
 .name {
     font-size: 25px;
     font-weight: 700;
-    color: #cced00;
+    color:#ffdf00;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 5px;
@@ -812,19 +837,19 @@
 }
 
 .team-img {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 170px;
     border-style: solid;
     border-radius: 50%;
     border-width: 3px;
-    border-color: #9aa5b1;
+    border-color:#9aa5b1;
 }
 
 .team-img1 {
-    width: 100%;
-    height: 340px;
+    width: 150px;
+    height: 170px;
     border-style: solid;
-    border-radius: 70%;
+    border-radius: 50%;
     border-width: 3px;
     border-color: #9aa5b1;
 }
