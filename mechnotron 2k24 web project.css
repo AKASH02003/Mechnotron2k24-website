@@ -558,7 +558,7 @@
 .containereventnontech .cardnontech .facenontech.face1nontech {
     position: relative;
     background: #333;
-    background-image: url("Images/Events/Non Tech/Non tech event preview.jpg");
+    background-image: url("Images/Events/Non Tech/photo_2024-04-01_23-23-39.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -570,7 +570,7 @@
 .containereventnontech .cardnontech:hover .facenontech.face1nontech {
     background: #ff0057;
     transform: translateY(0);
-    background-image: url("Images/Events/Non Tech/Non tech event preview.jpg");
+    background-image: url("Images/Events/Non Tech/photo_2024-04-01_23-23-39.jpg");
     background-size: cover;
 }
 
