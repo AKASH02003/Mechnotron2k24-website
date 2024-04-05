@@ -451,7 +451,7 @@
 .containerevent .card .face.face1 {
     position: relative;
     background: #00091B;
-    background-image: url("Images/Events/Tech/Tech event preview.jpg");
+    background-image: url("Images/Events/Tech/mr & mrs welder.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -463,7 +463,7 @@
 .containerevent .card:hover .face.face1 {
     background: #00091B;
     transform: translateY(0);
-    background-image: url("Images/Events/Tech/Tech event preview.jpg");
+    background-image: url("Images/Events/Tech/mr & mrs welder.jpg");
     background-size: cover;
 }
 
@@ -655,7 +655,7 @@
 .containereventfun .cardfun .facefun.face1fun {
     position: relative;
     background: #333;
-    background-image: url("Images/Events/Fun Events/Fun Events preview.jpg");
+    background-image: url("Images/Events/Fun Events/Photography.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -667,7 +667,7 @@
 .containereventfun .cardfun:hover .facefun.face1fun {
     background: #ff0057;
     transform: translateY(0);
-    background-image: url("Images/Events/Fun Events/Fun Events preview.jpg");
+    background-image: url("Images/Events/Fun Events/Photography.jpg");
     background-size: cover;
 }
 
